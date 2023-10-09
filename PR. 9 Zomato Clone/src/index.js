@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const path = require("path")
 const http = require("http");
 const { connectDB } = require("./db/dbConnection");
 const routes = require("./routes/v1");
@@ -27,8 +28,7 @@ app.use(cors());
 app.options("*", cors());
 
 /** Get image */
-app.use(express.static(`./public`));
-
+app.use(express.static(path.join(__dirname,`./public`)));
 app.use("/v1", routes);
 
 /** whenever route not created and you try to use that route then throw error. */

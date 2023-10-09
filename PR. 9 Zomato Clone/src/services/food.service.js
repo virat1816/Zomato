@@ -9,10 +9,7 @@ const createFood = async(reqbody) => {
 }
 // Get food list
 const getFoodlist = async() => {
-    return Food.find().populate({
-        path:"restaurant",
-        select:["restaurant_name"]
-    });
+    return Food.find().populate({restaurant_name});
 }
 // Get food by id
 const getFoodbyid = async(food_id) => {
