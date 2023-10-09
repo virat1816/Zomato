@@ -12,3 +12,6 @@ module.exports.cityService = require("./city.service");
 module.exports.restaurantService = require("./restaurant.service");
 module.exports.restaurantOwner = require("./restaurantOwner.service");
 module.exports.restaurantPhotoService = require("./restaurantPhoto.service");
+module.exports.restaurantHourService = require("./restaurantHour.service");
+module.exports.paymentMethodService = require("./paymentMethod.service");
+module.exports.deliveryAddressService = require("./deliveryAddress.service");

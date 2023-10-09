@@ -11,4 +11,6 @@ module.exports.city = require("./city.model");
 module.exports.restaurant = require("./restaurant.model");
 module.exports.RestaurantOwner = require("./restaurantOwner.model");
 module.exports.RestaurantPhoto = require("./restaurantPhoto.model");
-
+module.exports.restaurantHour = require("./restaurantHour.model");
+module.exports.PaymentMethods = require("./paymentMethod.model");
+module.exports.DeliveryAddress = require("./deliveryAddress.model");

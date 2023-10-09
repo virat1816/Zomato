@@ -11,3 +11,6 @@ module.exports.cityController = require("./city.controller");
 module.exports.restaurantController = require("./restaurant.controller");
 module.exports.restaurantOwnerController = require("./restaurantOwner.controller");
 module.exports.restaurantPhotoController = require("./restaurantPhoto.controller");
+module.exports.restaurantHourController = require("./restaurantHour.controller");
+module.exports.paymentMethodController = require("./paymentMethod.controller");
+module.exports.deliveryAddressController = require("./deliveryAddress.controller");
