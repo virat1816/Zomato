@@ -14,3 +14,4 @@ module.exports.restaurantPhotoValidation = require("./restaurantPhoto.validation
 module.exports.restaurantHourValidation = require("./restaurantHour.validation");
 module.exports.paymentMethodValidation = require("./paymentMethod.validation");
 module.exports.deliveryAddressValidation = require("./deliveryAddress.validation");
+module.exports.restaurantTypeValidation = require("./restaurantType.validation");

@@ -14,3 +14,4 @@ module.exports.restaurantPhotoController = require("./restaurantPhoto.controller
 module.exports.restaurantHourController = require("./restaurantHour.controller");
 module.exports.paymentMethodController = require("./paymentMethod.controller");
 module.exports.deliveryAddressController = require("./deliveryAddress.controller");
+module.exports.restaurantTypeController = require("./restaurantType.controller");

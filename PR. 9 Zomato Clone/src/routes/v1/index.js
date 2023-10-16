@@ -15,7 +15,7 @@ const restaurantPhotoRoute = require ("./restaurantPhoto.route")
 const restaurantHourRoute = require ("./restaurantHour.route");
 const paymentMethodRoute = require("./paymentMethod.route");
 const deliveryAddressRoute = require("./deliveryAddress.route");
-
+const restaurantTypeRoute = require("./restaurantType.route");
 
 
 const router = express.Router();
@@ -36,6 +36,7 @@ router.use("/restaurantPhoto" , restaurantPhotoRoute);
 router.use("/restaurantHour" , restaurantHourRoute);
 router.use("/paymentMethod" , paymentMethodRoute);
 router.use("/deliveryAddress", deliveryAddressRoute);
+router.use("./restaurantType" , restaurantTypeRoute);
 
 
 

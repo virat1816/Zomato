@@ -14,3 +14,4 @@ module.exports.RestaurantPhoto = require("./restaurantPhoto.model");
 module.exports.restaurantHour = require("./restaurantHour.model");
 module.exports.PaymentMethods = require("./paymentMethod.model");
 module.exports.DeliveryAddress = require("./deliveryAddress.model");
+module.exports.restaurantType = require("./restaurantType.model");

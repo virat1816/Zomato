@@ -15,3 +15,4 @@ module.exports.restaurantPhotoService = require("./restaurantPhoto.service");
 module.exports.restaurantHourService = require("./restaurantHour.service");
 module.exports.paymentMethodService = require("./paymentMethod.service");
 module.exports.deliveryAddressService = require("./deliveryAddress.service");
+module.exports.restaurantTypeService = require("./restaurantType.service");
